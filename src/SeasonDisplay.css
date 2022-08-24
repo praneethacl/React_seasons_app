@@ -1,0 +1,52 @@
+.icon-right {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.icon-left {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+.season-display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}
+.Winter {
+    background-color: rgb(236, 242, 247);
+}
+
+.season-display.Winter i {
+    background-color: rgb(162, 201, 252);
+}
+
+.Monsoon {
+    background-color: rgb(210, 226, 241);
+}
+.season-display.Monsoon i {
+    color: rgb(71, 128, 241);
+}
+
+.Spring {
+    background-color: rgb(127, 255, 176);
+}
+.season-display.Spring i {
+    color: rgb(79, 190, 15);
+}
+
+.Summer {
+    background-color: rgb(250, 250, 145);
+}
+.season-display.Summer i {
+    color: rgb(255, 96, 4);
+}
+
+.Autumn {
+    background-color: rgb(255, 204, 127);
+}
+.season-display.Autumn i {
+    color: rgb(226, 112, 19);
+}
